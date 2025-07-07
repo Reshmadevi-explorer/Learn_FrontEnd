@@ -5,20 +5,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="To work on the basic layout of html website with multiple pages">
     <title>Multiple pages HTML</title>
+    <style>
+        .container5
+        {
+            background-color:antiquewhite;
+            height: 380px;
+        }
+        h1{
+            margin:0;
+            margin-top:320px;
+            text-align: center;
+        }
+        h5{
+            
+            margin-top:10px;
+            text-align: center;
+        }
+        nav ul
+        {
+            display:flex;
+            justify-content: flex-end;
+            margin-right:20px;
+        }
+        nav ul li{
+
+            margin-right:10px;
+            list-style: none;
+            align-items:end;
+            
+        }
+    </style>
 </head>
 <body>
-    <nav>
+
+    <div class="container5">
+    <nav >
         <ul>
-                <li>Name</li>
-                <li>Home Page / </li>
-                <li>Projects / </li>
-                <li>Articles / </li>
-                <li>Contacts / </li>
+               <a href="./BasicLayout.html"> <li>Home Page / </li> </a>
+                <a href="./SingleCV.html"><li>CV Page/</li><a>
+               <a href="./Projects.html"><li>Projects</li></a>
         </ul>    
     </nav>
 
+
     <h1>Frontend Developer</h1>
-    <h6>html only with proper layout, no styling</h6>
+    <h5>html and styling with proper layout</h5>
+
+    </div>
 
 </body>
 </html>
