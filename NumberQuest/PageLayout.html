@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Quest</title>
+    <style>
+        body{
+            background-color:antiquewhite;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        h1{
+            margin-top:20%;
+           text-align: center;
+        }
+        .container
+        {
+            text-align: center;
+        }
+        .btn
+        {
+            background-color: beige;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <centre><h1>Guess Number !</h1></centre>
+        <div class="container" >
+        <form>
+            <input type="number" id="userinput" placeholder="Enter your guess:" required><br/>
+            <button  class="btn" type="submit"  onClick="verification(event)">Submit</button>
+            <button class="btn" type="reset" >Restart</button>
+        </form>
+    </div>
+    <script src="Logic.js"></script>
+</body>
+</html>
